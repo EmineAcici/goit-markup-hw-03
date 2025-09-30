@@ -1,0 +1,116 @@
+:root{
+    --iris: #4D5AE5;
+    --ocean: #404BBF;
+    --navyblue: #2E2F42;
+    --green: #31D0AA;
+    --slate: #434455;
+    --lightslate: #8E8F99;
+    --cornflower: #E7E9FC;
+    --cloud: #F4F4FD;
+    --navybluemodal: rgba(46,47,66,0.4);
+    --grey: rgba(46,47,66,0.7);
+    --white: #FFFFFF;
+    --dairy: #FCFCFC;
+    --font-family: "Roboto", sans-serif;
+    --second-family: "Raleway", sans-serif;
+}
+
+body,a{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+    background-color: var(--white);
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+/* Header */
+.header {
+    border-bottom: 1px solid var(--cornflower);
+}
+.logo{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    color: var(--navyblue);
+}
+.logo-span{
+    color: var(--iris);
+}
+
+.nav-menu-link,.list-title{
+    font-weight: 500;
+}
+
+.section-title,.list-title,.nav-menu-link{
+    color: var(--navyblue);
+}
+.nav-menu-link:hover,.contact-link:hover{
+    color: var(--ocean);
+}
+.nav-menu-link:active{
+    color: var(--ocean);
+    text-decoration-line: underline;
+    text-decoration-color: var(--ocean);
+    text-decoration-style: solid;
+    text-underline-offset: 20px;
+    text-decoration-thickness: 4px;
+}
+/* Main - class:page */
+.page-title,
+.section-title {
+    font-weight: 700;
+    text-align: center;
+}
+
+.page-title{
+    font-size: 56px;
+    line-height: 1.07143;
+}
+
+.page-title,.page-button{
+    color: var(--white);
+}
+.page{
+    background-color: var(--navyblue);
+}
+
+.page-button{
+    background-color: var(--iris);
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+}
+.page-button:hover{
+    background-color: var(--ocean);
+}
+.section-title{
+    font-size: 36px;
+    line-height: 1.11111;
+}
+.list-title{
+    font-size: 20px;
+    line-height: 1.2;
+}
+.team{
+    background-color: var(--cloud);
+}
+
+footer{
+    background-color: var(--navyblue);
+}
+.footer-logo{
+    font-family: var(--second-family);
+}
+.footer-logo,.footer-text{
+    color: var(--cloud);
+    background-color: inherit;
+}
