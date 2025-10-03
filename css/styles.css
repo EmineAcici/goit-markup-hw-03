@@ -44,6 +44,10 @@ body,a{
 ul{
     list-style-type: none;
 }
+.section,.team,.portfolio,.footer-div{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 /* Header */
 .header {
     border-bottom: 1px solid var(--cornflower);
@@ -83,7 +87,7 @@ ul{
     text-decoration-line: underline;
     text-decoration-color: var(--ocean);
     text-decoration-style: solid;
-    text-underline-offset: 20px;
+    text-underline-offset: 18px;
     text-decoration-thickness: 4px;
 }
 /* Main - class:page */
@@ -102,7 +106,7 @@ ul{
 .page-title,.page-button{
     color: var(--white);
 }
-.page{
+.page-flex{
     background-color: var(--navyblue);
     display: flex;
     flex-direction: column;
@@ -138,13 +142,29 @@ ul{
 .list-item:not(:last-child){
     margin-right: 24px;
 }
-.section-list{
+
+.section-list,.team-list,.portfolio-list{
     padding-left: 0;
 }
 .team{
     background-color: var(--cloud);
 }
 
+.team-list{
+    display: flex;
+    gap: 32px;
+    text-align: center;
+    justify-content: center;
+}
+.team-item,.portfolio-item{
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+        background: #fff;
+}
+.portfolio-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
 footer{
     background-color: var(--navyblue);
 }
@@ -154,4 +174,7 @@ footer{
 .footer-logo,.footer-text{
     color: var(--cloud);
     background-color: inherit;
+}
+.footer-div{
+    width: 264px;
 }
