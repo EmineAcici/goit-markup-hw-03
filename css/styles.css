@@ -47,16 +47,15 @@ body,a{
 ul{
     list-style-type: none;
 }
-.section,.team,.portfolio,.footer-div{
+.section,.team .container,.portfolio,.footer-div{
     padding-top: 120px;
     padding-bottom: 120px;
 }
 /* Header */
-.header {
+.header .container{
     border-bottom: 1px solid var(--cornflower);
     padding-top: 24px;
     padding-bottom: 24px;
-
 }
 
 .header .container,.nav-menu-logo,.nav-menu,.contact{
@@ -151,7 +150,7 @@ ul{
 }
 
 
-.team{
+.team .container{
     background-color: var(--cloud);
 }
 
